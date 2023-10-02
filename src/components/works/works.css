@@ -1,0 +1,10 @@
+.works {
+  width: 16rem;
+}
+
+.works span {
+  background-color: #120b47;
+  color: #fff;
+  padding: 0.5rem 0.9rem;
+  border-radius: 50%;
+}

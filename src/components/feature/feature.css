@@ -1,0 +1,22 @@
+.feature img {
+  padding: 0.5rem;
+  background-color: #120b48;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.feature {
+  display: flex;
+  align-items: start;
+  flex-direction: row;
+}
+
+.featureContent {
+  text-align: start;
+  width: 30rem;
+  padding: 0;
+  margin-top: -1.5rem;
+}
+
+.featureContent p {
+  margin-top: -1rem;
+}

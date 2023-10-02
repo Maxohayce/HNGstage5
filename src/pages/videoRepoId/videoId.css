@@ -1,0 +1,135 @@
+.savedId {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.savedIdTop {
+  width: 78%;
+}
+
+.savedIdLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30rem;
+}
+
+.savedIdTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 27rem;
+}
+
+.savedIdTop video {
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: red;
+  margin: 2rem 0rem;
+}
+
+.savedIdMid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 78%;
+}
+
+.sendVid input {
+  padding: 1rem;
+  background-color: #e7e7ed;
+  border-radius: 0.5rem;
+  width: 30rem;
+  border: none;
+}
+
+.sendVidDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sendEmail {
+  position: absolute;
+  margin-left: 22rem;
+  background-color: #605c84;
+  padding: 0.4rem 1.2rem;
+  color: #fff;
+}
+
+.sendVidUrl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyUrl {
+  position: absolute;
+  background-color: transparent;
+  margin-left: 18rem;
+  font-size: 1rem;
+  border: 1px solid #120b48;
+  padding: 0.4rem 1rem;
+  color: #120b48;
+  display: flex;
+  align-items: center;
+}
+
+.sendVid {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.shareVid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: start;
+}
+
+.shareBtn {
+  display: flex;
+  width: 28rem;
+  justify-content: space-between;
+}
+
+.shareBtn button {
+  background-color: transparent;
+  border: 1px solid #120b48;
+  display: inline-flex;
+  gap: 4px;
+}
+
+.transcriptSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 78%;
+}
+
+.transcriptTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: start;
+  align-self: start;
+}
+
+.transcriptTop input {
+  padding: 1rem;
+  width: 7rem;
+}
+
+.transcript {
+  display: flex;
+  flex-direction: column;
+}
+
+.transcriptContent {
+  display: flex;
+  justify-content: space-between;
+}

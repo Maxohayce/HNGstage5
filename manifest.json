@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "HelpMeOut Web Extension",
+    "version": "0.0.1",
+    "description": "A Web Extension created with Vite",
+    "options_page": "options.html",
+    "action": {
+        "default_title": "HelpMeOut Extension",
+        "default_popup": "popup.html",
+        "default_icon": "logo.png"
+    },
+    "icons": {
+        "16": "./logo.png"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "tabCapture",
+        "desktopCapture",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "inject_script.js"
+            ]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
