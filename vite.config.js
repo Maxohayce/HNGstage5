@@ -10,21 +10,12 @@ const __dirname = dirname(__filename);
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  define: {
-    "process.env": {},
-  },
   build: {
-    emptyOutDir: true,
-    outDir: resolve(__dirname, "dist"),
-    lib: {
-      formats: ["iife"],
-      entry: resolve(__dirname, "./content-script/index.tsx"),
-      name: "Vite/React/TailwindCSS Plugin",
-    },
     rollupOptions: {
-      output: {
-        entryFileNames: "index.global.js",
-        extend: true,
+      input: {
+        main: resolve(__dirname, "index.html"),
+        popup: resolve(__dirname, "popup.html"),
+        options: resolve(__dirname, "options.html"),
       },
     },
   },
